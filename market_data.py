@@ -493,3 +493,9 @@ class MarketDataService:
         except Exception as e:
             print(f"Error subscribing to candles for {trading_pair}: {str(e)}")
             return False
+            import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from ws_connection_manager import WebSocketConnectionManager
+
