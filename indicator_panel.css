@@ -1,0 +1,52 @@
+.indicator-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding: 0;
+    background-color: #1A1F25;
+    border-radius: 2px;
+    border: 1px solid #2D3748;
+    margin: 0;
+    overflow-x: auto;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+.indicator-card {
+    flex: 0 0 auto;
+    min-width: 160px;
+    padding: 0.125rem;
+    background-color: #2D3748;
+    border-radius: 2px;
+    color: #E0E0E0;
+    line-height: 1.2;
+}
+
+.indicator-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.indicator-title {
+    font-weight: 500;
+    color: #718096;
+}
+
+.indicator-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.indicator-parameter {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.indicator-parameter label {
+    color: #718096;
+    font-size: 0.75rem;
+}
