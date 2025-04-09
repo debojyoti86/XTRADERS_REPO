@@ -1,0 +1,22 @@
+[core]
+    autocrlf = true
+    safecrlf = false
+    fileMode = false
+
+[credential]
+    helper = store
+    useHttpPath = true
+
+[http]
+    sslVerify = true
+    postBuffer = 524288000
+
+[pull]
+    rebase = false
+
+[fetch]
+    prune = false
+
+[user]
+    name = xtraders-user
+    email = user@xtraders.com

@@ -15,13 +15,28 @@ A powerful desktop trading application built with Python, featuring real-time ma
 
 - Python 3.8 or higher
 - pip (Python package installer)
+- Git with proper authentication setup
 
 ## Installation
 
-1. Clone the repository:
+1. Configure Git authentication:
+   - Set up your Git credentials:
+   ```bash
+   git config --global credential.helper store
+   git config --global user.name "your-username"
+   git config --global user.email "your-email"
+   ```
+   - For SSH authentication, ensure your SSH key is added to your Git account
+   - For HTTPS, use a personal access token as password
+
+2. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/xtraders.git
-cd xtraders/python_version/modules
+# For HTTPS:
+git clone https://github.com/orient-shipping/xtraders.git
+# For SSH:
+git clone git@github.com:orient-shipping/xtraders.git
+
+cd XTRADERS/python_version/modules
 ```
 
 2. Install required dependencies:
