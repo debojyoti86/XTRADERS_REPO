@@ -32,9 +32,9 @@ A powerful desktop trading application built with Python, featuring real-time ma
 2. Clone the repository:
 ```bash
 # For HTTPS:
-git clone https://github.com/orient-shipping/xtraders.git
+git clone https://github.com/debojyoti86/XTRADERS_REPO.git
 # For SSH:
-git clone git@github.com:orient-shipping/xtraders.git
+git clone git@github.com:debojyoti86/XTRADERS_REPO.git
 
 cd XTRADERS/python_version/modules
 ```

@@ -20,3 +20,7 @@
 [user]
     name = xtraders-user
     email = ebajyotineel26@gmail.com
+
+[remote "origin"]
+    url = https://github.com/debojyoti86/XTRADERS_REPO.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
